@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>info</key>
+		<dict>
+			<key>name</key>
+			<string>TiVoRemote</string>
+			<key>description</key>
+			<string>Officially unofficial home for TiVoRemote.app</string>
+			<key>maintainer</key>
+			<string>Dustin Puckett</string>
+			<key>contact</key>
+			<string>tivoremote-support@googlegroups.com</string>
+			<key>url</key>
+			<string>http://code.google.com/p/tivoremote/</string>
+			<key>category</key>
+			<string>Toys</string>
+		</dict>
+		<key>packages</key>
+		<array>
+			<dict>
+				<key>bundleIdentifier</key>
+				<string>com.tivoremote.tivoremote</string>
+				<key>name</key>
+				<string>TiVoRemote</string>
+				<key>version</key>
+				<string>.01</string>
+				<key>location</key>
+				<string>http://tivoremote.googlecode.com/svn/www/tivoRemote.zip</string>
+				<key>size</key>
+				<string>55539</string>
+				<key>hash</key>
+				<string>4a51cc6d5a0e7c4a54d33ffb47ec2db7</string>
+				<key>description</key>
+				<string>Control your TiVoHD and Series 3 TiVo with your iPhone</string>
+				<key>author</key>
+				<string>Dustin Puckett</string>
+				<key>restartSpringBoard</key>
+				<true/>
+				<key>scripts</key>
+				<dict>
+					<key>install</key>
+					<array>
+						<array>
+							<string>CopyPath</string>
+							<string>TiVoRemote.app</string>
+							<string>/Applications/TiVoRemote.app</string>
+						</array>
+					</array>
+					<key>uninstall</key>
+					<array>
+						<array>
+							<string>RemovePath</string>
+							<string>/Applications/TiVoRemote.app</string>
+						</array>
+					</array>
+				</dict>
+				<key>category</key>
+				<string>Toys</string>
+				<key>date</key>
+				<string>1210122478</string>
+			</dict>
+		</array>
+	</dict>
+</plist>
