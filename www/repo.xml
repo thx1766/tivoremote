@@ -25,13 +25,13 @@
 				<key>name</key>
 				<string>TiVoRemote</string>
 				<key>version</key>
-				<string>.01</string>
+				<string>.02</string>
 				<key>location</key>
 				<string>http://tivoremote.googlecode.com/svn/www/tivoRemote.zip</string>
 				<key>size</key>
-				<string>55539</string>
+				<string>56486</string>
 				<key>hash</key>
-				<string>4a51cc6d5a0e7c4a54d33ffb47ec2db7</string>
+				<string>93eb3d9828b037e5283c4272bd32cdae</string>
 				<key>description</key>
 				<string>Control your TiVoHD and Series 3 TiVo with your iPhone</string>
 				<key>author</key>
