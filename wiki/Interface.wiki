@@ -3,7 +3,7 @@
 
 With version .05, it is now possible to configure the appearance of the program.  The configuration information is stored in /Applications/TiVoRemote.app/remote.xml.
 
-There are four parts of this file, *connections, *functions*, *sections*, and *pages*.  There isn't too much that can be done with the first two (although if you want to create new buttons, adding entries to *functions* would be useful), but the last two offer a lot of possibilities for controlling the layout.
+There are four parts of this file, *connections*, *functions*, *sections*, and *pages*.  There isn't too much that can be done with the first two (although if you want to create new buttons, adding entries to *functions* would be useful), but the last two offer a lot of possibilities for controlling the layout.
 
 = sections =
 
