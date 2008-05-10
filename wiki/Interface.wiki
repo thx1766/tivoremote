@@ -14,14 +14,14 @@ There are four parts of this file, *connections, *functions*, *sections*, and *p
 == buttons ==
 
 *buttons* define the buttons that will appear on the screen.
-* function -- This determines what action will be performed when the button is pressed.  The function must map to a previously defined function in *functions*.
-* connection -- The connection (maps to a connection defined in *connections*) that the button should apply to.
-* title -- The text that will appear on the button.
-* icon -- The image that will be displayed for the button.  The dimensions of the icon will determine the size of the button (no scaling takes place).  The same image will be displayed when the button is not pressed, and when it is pressed.
-* xCoord -- The x coordinate for where the icon will be drawn.  (These are pixel coordinates. 0 - 320).  (This is the left edge of the icon.)
-* yCoord -- The y coordinate for where the icon will be drawn.  (These are pixel coordinates.  0 - 412?).  (This is the top edge of the icon.)
-* confirm -- If the button has the potential of causing problems when accidentally pressed, including this field will display this message in a dialog box before executing the command.
-* tag -- This is presently only used when determining if a button should be displayed when the "Show Standby" option is selected.  
+  * function -- This determines what action will be performed when the button is pressed.  The function must map to a previously defined function in *functions*.
+  * connection -- The connection (maps to a connection defined in *connections*) that the button should apply to.
+  * title -- The text that will appear on the button.
+  * icon -- The image that will be displayed for the button.  The dimensions of the icon will determine the size of the button (no scaling takes place).  The same image will be displayed when the button is not pressed, and when it is pressed.
+  * xCoord -- The x coordinate for where the icon will be drawn.  (These are pixel coordinates. 0 - 320).  (This is the left edge of the icon.)
+  * yCoord -- The y coordinate for where the icon will be drawn.  (These are pixel coordinates.  0 - 412?).  (This is the top edge of the icon.)
+  * confirm -- If the button has the potential of causing problems when accidentally pressed, including this field will display this message in a dialog box before executing the command.
+  * tag -- This is presently only used when determining if a button should be displayed when the "Show Standby" option is selected.  
 
 
 = pages =
@@ -30,6 +30,6 @@ In the simplest terms, a page is a collection of *sections*.  A page also has so
 
 *pages* is an array of 'dict's.  The user will be able to scroll between each of the pages.
 The following keys are expected to be defined for each of the pages.
-* title -- The title of the page.  A string.
-* sections -- An array of the sections that make up this page.
-* button -- The button that will appear on the navigation bar.
+  * title -- The title of the page.  A string.
+  * sections -- An array of the sections that make up this page.
+  * button -- The button that will appear on the navigation bar.
